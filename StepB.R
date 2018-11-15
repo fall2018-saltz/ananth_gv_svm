@@ -1,2 +1,2 @@
 
-hotelSurvey <- hotelSurvey
+data <- hotelSurvey
