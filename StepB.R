@@ -1,4 +1,4 @@
 
 data <- hotelSurvey
 
-rownum(data)
+rowNum(data)
