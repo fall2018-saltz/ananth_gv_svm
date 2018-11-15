@@ -1,0 +1,4 @@
+
+data <- hotelSurvey
+
+nrow(data)
