@@ -6,9 +6,15 @@
     "edges": [],
     "nodes": [
         {
-            "name": "clean.R"
+            "assigned_to": "agauribi",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "StepB.R"
         }
     ],
-    "updated_at": "2018-11-15 00:29:10",
+    "updated_at": "2018-11-15 00:30:28",
     "url": "https://github.com/fall2018-saltz/ananth_gv_svm"
 }
