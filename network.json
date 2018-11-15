@@ -7,8 +7,8 @@
         {
             "ports": [
                 {
-                    "input": "data",
-                    "output": "data",
+                    "input": "hotelSurvey",
+                    "output": "hotelSurvey",
                     "type": "r_obj"
                 }
             ],
@@ -27,6 +27,6 @@
             "name": "StepB.R"
         }
     ],
-    "updated_at": "2018-11-15 00:30:39",
+    "updated_at": "2018-11-15 00:30:53",
     "url": "https://github.com/fall2018-saltz/ananth_gv_svm"
 }
