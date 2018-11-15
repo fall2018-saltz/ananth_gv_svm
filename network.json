@@ -1,0 +1,34 @@
+{
+    "collaborators": [
+        "agauribi"
+    ],
+    "created_at": "2018-11-15 00:28:57",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "hotelSurvey",
+                    "output": "hotelSurvey",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "StepB.R"
+        }
+    ],
+    "nodes": [
+        {
+            "assigned_to": "agauribi",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "",
+            "name": "StepB.R",
+            "task_status": "in progress"
+        }
+    ],
+    "updated_at": "2018-11-15 00:33:23",
+    "url": "https://github.com/fall2018-saltz/ananth_gv_svm"
+}
