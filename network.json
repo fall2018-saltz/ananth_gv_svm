@@ -14,6 +14,17 @@
             ],
             "source": "PartA.R",
             "target": "StepB.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data_clean",
+                    "output": "data_clean",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "StepB.R",
+            "target": "StepC.R"
         }
     ],
     "nodes": [
@@ -34,6 +45,6 @@
             "name": "StepC.R"
         }
     ],
-    "updated_at": "2018-11-24 03:04:19",
+    "updated_at": "2018-11-24 03:04:34",
     "url": "https://github.com/fall2018-saltz/ananth_gv_svm"
 }
