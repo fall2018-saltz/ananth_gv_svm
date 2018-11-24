@@ -8,7 +8,7 @@
 # 10.	Create a confusion matrix (a 2 x 2 table) that compares the second row of svmPred to the contents of testData$happy variable.
 # 11.	Calculate an error rate based on what you see in the confusion matrix. See pages 243-244 for more information
 
-
+library(kernlab)
 svmPred1 <- predict(kernfit, testData, type="votes")    # predict the test data on top of trained model using predict function. votes are for TRUE or FALSE(Happy Not Happy)
 str(svmPred1)                                           # str function is used to get the structure of the prediction
 confusionMatrix1 <- table(svmPred1[1,],testData$overall_satisfaction_greater_8)  # confusion matrix is created confusion matrix (a 2 x 2 table) that compares the second row of svmPred to the contents of testData$happy variable.
