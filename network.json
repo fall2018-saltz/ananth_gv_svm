@@ -25,6 +25,27 @@
             ],
             "source": "StepB.R",
             "target": "StepC.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "trainData",
+                    "output": "trainData",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "testData",
+                    "output": "testData",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "data_clean",
+                    "output": "data_clean",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "StepC.R",
+            "target": "StepD.R"
         }
     ],
     "nodes": [
@@ -51,6 +72,6 @@
             "name": "StepD.R"
         }
     ],
-    "updated_at": "2018-11-24 07:16:07",
+    "updated_at": "2018-11-24 07:17:03",
     "url": "https://github.com/fall2018-saltz/ananth_gv_svm"
 }
