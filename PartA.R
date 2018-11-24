@@ -1,14 +1,11 @@
 
+#################################################################
 #Part A: Load and condition the data  
 
-#1.	The data is available on blackboard (hotelSurveySherison), as a JSON file.
+library(kernlab)                                       # load the kernlab library which contains Kernel-based machine learning methods for classification, regression, clustering, novelty detection.
+library(jsonlite)                                      # load jsonlite library to perform json read write functions.
 
-library(jsonlite)                                                          # json lite library is loaded to perform json operations.
-data <- data.frame(fromJSON("hotelSurveySherison.json"))                           # the data from json file is loaded using fromJSON function and converted to data frame using data.frame fucntion. 
+#1.	The data is available on blackboard (hotelSurveyBarriot), as a JSON file.
 
-
-#2)	Name the dataframe hotelSurvey
-hotelSurvey <- data                                                       # Copy the data frame to a new data frame hotelSurvey
-
-                                                                # str - represents structure whcih gives us the structure of the data including data types of the column variables in the data frame.
-
+setwd("D:/Workspace Syracuse/Intro to Data Science")   # setwd is used to set the working directory where the working json file can be found.                                                        # json lite library is loaded to perform json operations.
+data <- data.frame(fromJSON("hotel_survey.json"))      # data.frame function is used to convert the output of json read to a data frame.
