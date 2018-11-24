@@ -6,6 +6,7 @@
 # 13.	Explain, in a block comment, why it is valuable to have a “test” dataset that is separate from a “training” dataset?
 
 # ksvm function is called with more specific independent variables which help predict customer satisfaction such as hotelClean+whenBookedTrip+checkInSat
+library(kernlab)
 kernfit2 <- ksvm(overall_satisfaction_greater_8 ~ hotelClean+whenBookedTrip+checkInSat, data = trainData, kernel= "rbfdot", kpar = "automatic", C = 5, cross = 3, prob.model = TRUE)
 kernfit2
 svmPred2 <- predict(kernfit2, testData, type="votes")    # # predict the test data on top of trained model using predict function. votes are for TRUE or FALSE(Happy Not Happy)
