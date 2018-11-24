@@ -7,6 +7,8 @@
 #6.	Write a block comment that summarizes what you learned from the book about those parameters. The two parameters of greatest interest are C=5 and cross=3.
 #7.	Store the output of kvsm( ) in a variable and then echo that variable to the console
 
+
+trainData <- trainData
 kernfit <- ksvm(overall_satisfaction_greater_8 ~., data = trainData, kernel= "rbfdot", kpar = "automatic", C = 5, cross = 3, prob.model = TRUE) # ksvm function is used (kernel support vector machine) to generate the support vectors for classification and prediction 
 kernfit
 
