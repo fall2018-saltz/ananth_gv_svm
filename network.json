@@ -12,7 +12,7 @@
                     "type": "r_obj"
                 }
             ],
-            "source": "clean.R",
+            "source": "PartA.R",
             "target": "StepB.R"
         }
     ],
@@ -26,10 +26,10 @@
         {
             "assigned_to": "agauribi",
             "desc": "Part A: Load and condition the data  ",
-            "name": "clean.R",
+            "name": "PartA.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-24 02:39:05",
+    "updated_at": "2018-11-24 02:39:19",
     "url": "https://github.com/fall2018-saltz/ananth_gv_svm"
 }
