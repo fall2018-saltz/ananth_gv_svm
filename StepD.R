@@ -11,6 +11,7 @@
 trainData <- trainData
 testData <- testData
 data_clean <- data_clean
+
 kernfit <- ksvm(overall_satisfaction_greater_8 ~., data = trainData, kernel= "rbfdot", kpar = "automatic", C = 5, cross = 3, prob.model = TRUE) # ksvm function is used (kernel support vector machine) to generate the support vectors for classification and prediction 
 kernfit
 
