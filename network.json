@@ -68,10 +68,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "agauribi",
             "desc": "Step D: Build a Model using ksvm( ) ",
-            "name": "StepD.R"
+            "name": "StepD.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-24 07:17:03",
+    "updated_at": "2018-11-24 07:19:59",
     "url": "https://github.com/fall2018-saltz/ananth_gv_svm"
 }
