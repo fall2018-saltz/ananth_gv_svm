@@ -45,8 +45,12 @@
             "desc": "Part C: Create training and test data sets",
             "name": "StepC.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "Step D: Build a Model using ksvm( ) ",
+            "name": "StepD.R"
         }
     ],
-    "updated_at": "2018-11-24 03:05:43",
+    "updated_at": "2018-11-24 07:16:07",
     "url": "https://github.com/fall2018-saltz/ananth_gv_svm"
 }
