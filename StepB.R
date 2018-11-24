@@ -1,4 +1,5 @@
 
+source(‘methods’)
 #################################################################
 #Part B: Create a happy customer variable 
 
