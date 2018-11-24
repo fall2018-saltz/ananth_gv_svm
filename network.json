@@ -100,10 +100,16 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "agauribi",
             "desc": "Part E: Predict Values in the Test Data and Create a Confusion Matrix",
-            "name": "StepE.R"
+            "name": "StepE.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "Part F: Find a good prediction",
+            "name": "StepF.R"
         }
     ],
-    "updated_at": "2018-11-24 07:22:26",
+    "updated_at": "2018-11-24 07:24:25",
     "url": "https://github.com/fall2018-saltz/ananth_gv_svm"
 }
