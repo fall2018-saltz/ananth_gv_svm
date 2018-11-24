@@ -28,8 +28,12 @@
             "desc": "Part B: Create a happy customer variable ",
             "name": "StepB.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "Part C: Create training and test data sets",
+            "name": "StepC.R"
         }
     ],
-    "updated_at": "2018-11-24 02:54:56",
+    "updated_at": "2018-11-24 03:04:19",
     "url": "https://github.com/fall2018-saltz/ananth_gv_svm"
 }
