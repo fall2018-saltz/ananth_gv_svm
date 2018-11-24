@@ -63,6 +63,11 @@
                     "input": "data_clean",
                     "output": "data_clean",
                     "type": "r_obj"
+                },
+                {
+                    "input": "kernfit",
+                    "output": "kernfit",
+                    "type": "r_obj"
                 }
             ],
             "source": "StepD.R",
@@ -99,6 +104,6 @@
             "name": "StepE.R"
         }
     ],
-    "updated_at": "2018-11-24 07:21:41",
+    "updated_at": "2018-11-24 07:22:26",
     "url": "https://github.com/fall2018-saltz/ananth_gv_svm"
 }
