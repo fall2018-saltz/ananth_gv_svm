@@ -12,7 +12,7 @@
                     "type": "r_obj"
                 }
             ],
-            "source": "PartA.R",
+            "source": "StepA.R",
             "target": "StepB.R"
         },
         {
@@ -98,12 +98,6 @@
     "nodes": [
         {
             "assigned_to": "agauribi",
-            "desc": "Part A: Load and condition the data  ",
-            "name": "PartA.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "agauribi",
             "desc": "Part B: Create a happy customer variable ",
             "name": "StepB.R",
             "task_status": "in progress"
@@ -131,8 +125,14 @@
             "desc": "Part F: Find a good prediction",
             "name": "StepF.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Step A: Load and condition the data  ",
+            "name": "StepA.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-24 07:27:50",
+    "updated_at": "2018-11-24 07:31:25",
     "url": "https://github.com/fall2018-saltz/ananth_gv_svm"
 }
