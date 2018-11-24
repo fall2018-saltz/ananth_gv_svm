@@ -72,8 +72,12 @@
             "desc": "Step D: Build a Model using ksvm( ) ",
             "name": "StepD.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "Part E: Predict Values in the Test Data and Create a Confusion Matrix",
+            "name": "StepE.R"
         }
     ],
-    "updated_at": "2018-11-24 07:19:59",
+    "updated_at": "2018-11-24 07:20:42",
     "url": "https://github.com/fall2018-saltz/ananth_gv_svm"
 }
