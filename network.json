@@ -7,28 +7,132 @@
         {
             "ports": [
                 {
-                    "input": "hotelSurvey",
-                    "output": "hotelSurvey",
+                    "input": "data",
+                    "output": "data",
                     "type": "r_obj"
                 }
             ],
-            "source": "clean.R",
+            "source": "StepA.R",
             "target": "StepB.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data_clean",
+                    "output": "data_clean",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "StepB.R",
+            "target": "StepC.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "trainData",
+                    "output": "trainData",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "testData",
+                    "output": "testData",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "data_clean",
+                    "output": "data_clean",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "StepC.R",
+            "target": "StepD.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "testData",
+                    "output": "testData",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "trainData",
+                    "output": "trainData",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "data_clean",
+                    "output": "data_clean",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "kernfit",
+                    "output": "kernfit",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "StepD.R",
+            "target": "StepE.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "testData",
+                    "output": "testData",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "trainData",
+                    "output": "trainData",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "data_clean",
+                    "output": "data_clean",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "StepE.R",
+            "target": "StepF.R"
         }
     ],
     "nodes": [
         {
             "assigned_to": "agauribi",
-            "name": "clean.R",
+            "desc": "Part B: Create a happy customer variable ",
+            "name": "StepB.R",
             "task_status": "in progress"
         },
         {
             "assigned_to": "agauribi",
-            "desc": "",
-            "name": "StepB.R",
+            "desc": "Part C: Create training and test data sets",
+            "name": "StepC.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Step D: Build a Model using ksvm( ) ",
+            "name": "StepD.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Part E: Predict Values in the Test Data and Create a Confusion Matrix",
+            "name": "StepE.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Part F: Find a good prediction",
+            "name": "StepF.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Step A: Load and condition the data  ",
+            "name": "StepA.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-15 00:33:23",
+    "updated_at": "2018-11-24 07:31:25",
     "url": "https://github.com/fall2018-saltz/ananth_gv_svm"
 }
