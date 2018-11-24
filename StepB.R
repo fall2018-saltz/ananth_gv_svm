@@ -15,7 +15,7 @@ data_clean <- data[, c("hotelFriendly", "checkInSat", "lengthOfStay", "hotelClea
 table(data_clean$overall_satisfaction_greater_8)                                     # table function is used to get a count of total cutomers who are satisfied(TRUE) and not satisfied(FALSE)
 
 str(data_clean)                                                                      # str function is used to get the resulting structure of the new data frame data_clean
-plot(data_clean)                                                                     # plot function is used on the data _clean data frame to get an idea of which variables are related and identify relations for prediction and analysis
-plot(data_clean$hotelFriendly, data_clean$guestAge, col = data_clean$overall_satisfaction_greater_8)
-plot(data_clean$hotelSize, data_clean$whenBookedTrip, col = data_clean$overall_satisfaction_greater_8)
+#plot(data_clean)                                                                     # plot function is used on the data _clean data frame to get an idea of which variables are related and identify relations for prediction and analysis
+#plot(data_clean$hotelFriendly, data_clean$guestAge, col = data_clean$overall_satisfaction_greater_8)
+#plot(data_clean$hotelSize, data_clean$whenBookedTrip, col = data_clean$overall_satisfaction_greater_8)
 
