@@ -4,7 +4,7 @@
 
 #2.	To focus on predicting happy customers, we need to generate a new column (where overallCustSat is 8 or higher).
 
-source(‘methods’)
+data <- data
 data[data$overallCustSat >=8, "overall_satisfaction_greater_8"] <- TRUE              # Create new column overall_satisfaction_greater_8 with values TRUE for overallCustSat>=8
 data[data$overallCustSat < 8, "overall_satisfaction_greater_8"] <- FALSE             # Create new column overall_satisfaction_greater_8 with values FALSE for overallCustSat<8
 data$overall_satisfaction_greater_8 <- as.factor(data$overall_satisfaction_greater_8)
