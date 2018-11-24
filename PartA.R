@@ -13,4 +13,4 @@ library(jsonlite)                                      # load jsonlite library t
 #1.	The data is available on blackboard (hotelSurveyBarriot), as a JSON file.
 
 #setwd("D:/Workspace Syracuse/Intro to Data Science")   # setwd is used to set the working directory where the working json file can be found.                                                        # json lite library is loaded to perform json operations.
-data <- data.frame(fromJSON("hotel_survey.json"))      # data.frame function is used to convert the output of json read to a data frame.
+data <- data.frame(fromJSON("hotelSurveySherison.json"))      # data.frame function is used to convert the output of json read to a data frame.
